@@ -219,6 +219,8 @@ Some rules are a lot more arbitrary - the Style department is going to be the pr
 Start by running `bundle exec rubocop --init` in your home directory to generate a blank `rubocop.yml` file. It has a comment that describes how to use it but besides that - it's totally empty!
 Now, you need to find out what rule you want to change or disable. For the possible options always consult the documentation - not every Cop is just a simple on/off, there might be more options. As an example, we'll be changing the rules regarding strings, frozen string literals and we'll enable NewCops.
 
+Start by creating a file `.rubocop.yml` using the command touch or nano(nano will open the text editor right away). Don't forget that it has to be a dotfile! Now, you need to find out what rule you want to change or disable. For the possible options always consult the documentation - not every Cop is just a simple on/off, there might be more options. As an example, we'll be changing the rules regarding strings, frozen string literals and we'll enable NewCops.
+
 ```yaml
 # This is .rubocop.yml in ~/
 AllCops:
